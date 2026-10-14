@@ -1,0 +1,10 @@
+{
+  "name": "Remix ReadHeal - เตียงนี้มีเรื่องเล่า 02",
+  "description": "แพลตฟอร์มจิตอาสาอ่านหนังสือบำบัดใจเพื่อผู้ป่วยในโรงพยาบาล (Hospital Patient Reading Support Platform)",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

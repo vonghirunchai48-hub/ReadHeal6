@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@media print {
+  /* Hide all elements during print except the targeted printable appointment slip or certificate */
+  body * {
+    visibility: hidden;
+  }
+  
+  #printable-appointment-slip,
+  #printable-appointment-slip * {
+    visibility: visible;
+  }
+  
+  #printable-appointment-slip {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    margin: 0 !important;
+    padding: 24px !important;
+    background: white !important;
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+    z-index: 999999 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
